@@ -1,3 +1,215 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*--------------------HOME--------------------*/
+#home {
+	width: 100%;
+	height: 708px;
+	position: relative;
+}
+
+
+#home img {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+/*****header*****/
+header {
+	float: right;
+	margin-right: 11%;
+	margin-top: 20px;
+}
+
+header img {
+	width: 70px!important;
+	left: 80px;
+	top: 30px;
+}
+
+
+header li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+header li:first-child {
+	margin-right: 30px;
+}
+
+header li:last-child {
+	margin-left: 30px;
+	border: 1px solid white;
+	padding: 8px 15px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+header a:hover {
+	color: #ff00bf;
+}
+
+header li:last-child:hover {
+	border: 1px solid #ff00bf;
+}
+
+/*****formulario*****/
+.formulario {
+	background: white;
+	width: 560px;
+	height: 420px;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 120px;
+	line-height: 1.1;
+}
+
+.formulario div {
+	display: inline-block;
+	padding: 60px 0 0 60px;
+	color: #352384;
+	width: 80%;
+}
+
+
+.formulario h1 {
+	font-size: 40px;
+	font-weight: 500;
+	margin: 0;
+	width: 300px;
+}
+
+.formulario h5 {
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+.formulario ul {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.formulario li {
+	margin: 20px 0;
+	display: inline-block;
+}
+
+
+.formulario a:first-child {
+	padding: 15px 15px;
+	background: #ff00bf;
+	border-radius: 5px;
+	font-weight: 300;
+	color: white;
+}
+
+.formulario a:last-child {
+	color: #728099;
+	font-weight: 300;
+	margin-left: 20px;
+	border-bottom: 1px solid #b3b3b3;
+}
+
+.formulario p {
+	width: 300px;
+	font-size: 9px;
+	color: #728099;
+}
+
+/*****formulario's input*****/
+input {
+	font-weight: 500;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	border-bottom: 1px solid #352384;
+	width: 100%;
+	margin: 20px 10px 10px 0;
+	padding-bottom: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+	color: #b3b3b3;
+	font-weight: 300;
+}
+
+.filler {
+	position: absolute;
+	width: 100%;
+	padding-top: 150px;
+	bottom: 0;
+	margin: 0;
+	background: linear-gradient(transparent,#6A1A84);
+}
+
+/*--------------------INFO--------------------*/
+#info {
+	background: linear-gradient(#6A1A84, #2B1E66);
+	color: white;
+	padding: 0 12%;
+	height: 530px;
+}
+
+#info ul {
+	display: inline-block;
+	width: 49%;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+#info li {
+	margin-bottom: 60px;
+}
+
+#info h2 {
+	margin: 0 auto;
+	line-height: 30px;
+}
+
+#info img {
+	width: 45%;
+	float: right;
+}
+
+#info p {
+	font-weight: 300;
+}
+
+
+/*--------------------VIDS--------------------*/
+#vids {
+	margin: 0;
+	padding: 0;
+}
+
+iframe {
+	width: 700px;
+	height: 500px;
+}
+
+iframe:nth-child(even) {
+	float: right;
+}
+
+#vids div {
+	position: absolute;
+	display: inline-block;
+	width: 30%;
+}
