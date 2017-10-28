@@ -18,13 +18,13 @@ nav div a {
 	float: left;
 	margin-left: 6%;
 	margin-top: 30px;
-	background-image: url(../assets/images/logo-white.png);
+	background-image: url(~assets/images/logo-white.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 nav div a:hover {
-	background-image: url(../assets/images/logo-pink.png)!important;
+	background-image: url(~assets/images/logo-pink.png)!important;
 }
 
 /*navigation links styling*/
@@ -71,7 +71,7 @@ nav ul a:last-child:hover {
 #home {
 	text-align: right;
 	position: relative;
-	background-image: url(../assets/images/hero.gif);
+	background-image: url(~assets/images/hero.gif);
 	background-size: cover;
 }
 
@@ -269,6 +269,7 @@ footer {
 	margin: 0 auto;
 	margin-top: 9.5px;
 	padding-top: 20px;
+	min-width: 600px
 }
 
 /***4 filas de links + botones***/
